@@ -1,0 +1,106 @@
+body {
+  background-color: #E4E9FD;
+  background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
+  min-height: 1000px;
+  font-family: 'helvetica neue';
+}
+a{
+  text-decoration:none;
+  color:#A683E3;
+}
+a:hover{
+  color:#393e46;
+  text-decoration: underline;
+}
+table{
+  text-align: left;
+  padding-bottom: 30px;
+}
+.navbar{
+  position:relative;
+}
+.links{
+  list-style: none;
+}
+.nav-head{
+  display:inline-block;
+  margin-left: 50px;
+  color:#A683E3;
+  font-family: 'Fjalla One', sans-serif;
+  letter-spacing: 2px;
+}
+.nav-link{
+  display:inline-block;
+  position:absolute;
+  right:100px;
+  bottom:10px;
+}
+.item{
+  display:inline-block;
+  font-size: larger;
+}
+.box {
+  text-align: center;
+  max-width: 600px;
+  margin: 50px auto;
+  background: #f9f6f7;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px  rgba(0, 0, 0, 0.3);
+}
+.my-pic{
+  width:200px;
+  height:200px;
+  border-radius: 100%;
+  border:8px solid #A683E3;
+  margin-top:30px;
+}
+.name{
+  font-size: 45px;
+  color:#A683E3;
+  text-decoration: underline;
+  margin-bottom: 20px;
+  font-family: 'Fjalla One', sans-serif;
+  letter-spacing: 2px;
+}
+.description{
+  padding:20px;
+  font-size: 20px;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+.hobbies{
+  list-style: none;
+  font-size: 25px;
+  font-family: 'Merriweather Sans', sans-serif;
+  line-height:40px;
+}
+.hob-head{
+  padding-top:30px;
+}
+.hob-list{
+  padding:20px;
+}
+
+@media(max-width:500px){
+  .navbar{
+    text-align:center;
+  }
+  .nav-head{
+    font-size: 30px;
+    margin:20px auto 10px;
+  }
+  .nav-link{
+    position:static;
+    font-size: 20px;
+  }
+  .links{
+    padding:0;
+  }
+  .box{
+    margin-top:30px;
+  }
+}
+@media(max-width:800px){
+  .nav-link{
+    right:50px;
+  }
+}
